@@ -1,15 +1,23 @@
 {
   "name": "webcrawlerhttp",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple HTTP web crawler",
   "main": "main.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node main.js",
     "test": "jest"
   },
-  "keywords": [],
+  "keywords": [
+    "nodejs",
+    "crawler",
+    "http"
+  ],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "jsdom": "26.1.0"
+  },
   "devDependencies": {
     "jest": "^30.5.2"
   }
